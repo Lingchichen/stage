@@ -1,0 +1,296 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Jack(lingchi)Chen</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href= "{% static 'css/styles.css'%}" rel="stylesheet" />
+        <link href= "{% static 'style.css'%}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"></a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/lingchi-chen-2010a012a/"><i class="fab fa-fw fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="{% static 'assets/img/avataaars.svg' %}" alt="" /><!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Jack(Lingchi)Chen</h1>
+              </br>
+                <!-- Icon Divider-->
+                <div class="timeline">
+                  <div class="chart-container right">
+                    <div class="chart-content"  style="text-align:left">
+                      <h4>2019-2020</h4><h6><a href='https://buzzybranding.com/'>Buzzy Branding Inc</a></h6>
+                      <p>Software Developer </p>
+                    </div>
+                  </div>
+                  <div class="chart-container left">
+                    <div class="chart-content"  style="text-align:left">
+                      <h4>2018-2019</h4><h6><a href='https://garo.ca/'>Garo Consulting Inc</a></h6>
+                      <p>Full Stack Developer</p>
+                    </div>
+                  </div>
+                  <div class="chart-container right">
+                    <div class="chart-content" style="text-align:left">
+                      <h4 style="display:inline">2013-2017</h4><h6><a href='https://wlu.ca'>Wilfrid Laurier University</a></h6>
+                      <p>Bachelor of Science Student in Computer Science (Minor Physics) </p>
+                      <p>Volunteer in <a href='http://www.cargo.wlu.ca/'>CARGO </a>(Computer Algebra Research Group) </p>
+
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1" style="height:300px;width:323px;">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" style="height:300px;width:323px;">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/fsd.png' %}" alt="" style="height:200px;width:450px;"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2" style="height:300px;width:323px;">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" style="height:300px;width:323px;">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/ad.png' %}" alt="" style="height:200px;width:450px;"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3" style="height:300px;width:323px;">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100" style="height:300px;width:323px;">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="{% static 'assets/img/portfolio/dv.png' %}" alt="" style="height:200px;width:450px;"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+
+        <!-- Contact Section-->
+
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © lingchi 2020</small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Portfolio Modals--><!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Full Stack Developments</h2>
+                                    <!-- Icon Divider-->
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="text-align:left">Project:Kro Working As One Platform (<a href='https://github.com/Lingchichen/Garo_kro_application/blob/master/KRO%20Wireframe%20-%20v2.81%20-%20HR%20Tyler.pdf'>Full WireFrame </a>)was developed by using Django, Django REST Framework and React,Redux.It is a comprehensive and powerful application which help multi-scale companies to manage their business including project management, employees' performance assessment,administrative management</p>
+                                    <p class="mb-5" style="text-align:left">Login interface will allow user to login and select different locations</label>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/kro-login.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/kro-login-location.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">On the dashboard interface, by clicking different icons on right side will render different related component into dashboard. </label>
+                                      <div>
+                                        <img class="img-fluid" src="{% static 'assets/img/portfolio/kro-home.png' %}" alt="" style="height:600;width:600px;margin-bottom:30px;"/>
+                                    </div>
+
+                                    <div>
+                                      <p class="mb-5" style="text-align:left">Feel Free to check whole <a href='https://github.com/Lingchichen/Garo_kro_application/blob/master/KRO%20Wireframe%20-%20v2.81%20-%20HR%20Tyler.pdf'>wireframe</a>, here is meeting and assessment parts below</label>
+
+                                      <p class="mb-5" style="text-align:left">Meeting</label>
+                                      <div>
+                                        <img class="img-fluid" src="{% static 'assets/img/portfolio/kro-meeting.png' %}" alt="" style="height:600;width:600px;margin-bottom:30px;"/>
+                                        <img class="img-fluid" src="{% static 'assets/img/portfolio/kro-meeting-detail.png' %}" alt="" style="height:600;width:600px;margin-bottom:30px;"/>
+                                      </div>
+                                        <p class="mb-5" style="text-align:left">Assessment</label>
+                                      <div>
+                                        <img class="img-fluid" src="{% static 'assets/img/portfolio/milstone.png' %}" alt="" style="height:600;width:600px;margin-bottom:30px;"/>
+                                      </div>
+                                  </div>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Automation Developments</h2>
+                                    <!-- Icon Divider-->
+
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <p class="mb-5" style="text-align:left">Project:Help Buzzy Branding to build "automation tool" to expand potential market.</p>
+                                    <p class="mb-5" style="text-align:left">Automation Tool will autometically webcrawl our potential client's website and scraping contact information, expertise and interest. </p>
+                                    <p class="mb-5" style="text-align:left">Result: Sending 100,000+ customized emails by one click, and receive 20,000 responses which increase conversion rate over 20%.</label>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/autotool.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Step 1: How to get potential clients' website and know what their interest.   <a href="https://developers.google.com/places/web-service/intro">Google Place API</a></label>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/GooglePlaceAPI.png' %}" alt="" style="height:900px;width:800px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Step 2: Now we get client's basic contact information and website, how do we get more information in their websites. </p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/GooglePlaceAPI.png' %}" alt="" style="height:900px;width:800px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Step 3: How to catch Data we need.  Beatiful Soup, Selenium,Regular Expression,NLTK</p>
+                                    <div>
+                                      <div>
+                                        <img class="img-fluid" src="{% static 'assets/img/portfolio/email.png' %}" alt="" style="height:700px;width:900px;margin-bottom:30px;"/>
+                                      </div>
+                                      <div>
+                                        <p class="mb-5" style="text-align:left">we can use same way but different regular Expression to catch phone number</p>
+                                      </div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/phone.png' %}" alt="" style="height:50px;width:800px;margin-bottom:30px;"/>
+                                      <div>
+                                        <p class="mb-5" style="text-align:left">Regular Expression doesn't work for catching person's name becuase .We used Natural Language processing here (<a href='https://www.nltk.org/'>NLTK</a>)</p>
+                                      </div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/nlp_getname.png' %}" alt="" style="height:500px;width:800px;margin-bottom:30px;"/>
+                                      <div>
+                                        <p class="mb-5" style="text-align:left">Here is the test process</p>
+                                      </div>
+                                      <p class="mb-5" style="text-align:left">test content: "Anthony Stephen Fauci was born on December 24, 1940, in Brooklyn, New York, the second child of first-generation Italian American parents Eugenia and Stephen. A sports nut, he spent his days playing baseball, basketball and football, when not busy working the cash register or making deliveries for his father's pharmacy."<p>
+                                      <p class="mb-5" style="text-align:left">I put this content as parameter into the name_catch function, it will do content analysis and display each word with a node. This function filters those node and select node equals "PERSON".It succeed to catch person's name and differ from name of location by different nodes.</p>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/nlp_test.png' %}" alt="" style="height:1500px;width:400px;margin-bottom:30px;"/>
+                                    </div>
+                                      <p class="mb-5" style="text-align:left">Step:4 After we collected our potential clients information we can send them Email using <a href="https://mailthon.readthedocs.io/en/latest/quickstart.html">Mailthon</a>，in Mailthon we can create multiple email templates. </p>
+                                      <p class="mb-5" style="text-align:left">By the way,also Mailthon is a way to send email to ask new register/or new clients to activate their account.</p>
+
+
+                                    <div>
+
+                                  </div>
+                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Data Visualization</h2>
+                                    <!-- Icon Divider-->
+                                  </br>
+                                    <p class="mb-5" style="text-align:left">Project:Buzzy Reputation Project. Compare client's social media reputation with their competitors (<a href="https://github.com/Lingchichen/buzzy_reputation_sample_report/blob/master/bayelm.png"> check full report </a>)</p>
+                                    <p class="mb-5" style="text-align:left">collecting data through different data properties (Facebook,Twitter,LinkedIn,Google...) and save to database and render through rest api into frontend, using data Visualization tools to display these data. </p>
+                                    <p class="mb-5" style="text-align:left">Display client and competitors on the map</p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/location.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Online Health Profile will show online health in a comprehensive way </p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/comprehensive.png' %}" alt="" style="height:500px;width:800px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Google Section</p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/google.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Google Review will dispaly those words which repeat most times</p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/review.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Facebook section</p>
+                                    <p class="mb-5" style="text-align:left">Facebook engagements display the number of your facebook followers ,facebook likes, and even the last updatae</p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/fb.png' %}" alt="" style="height:500px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/fb_lastupdate.png' %}" alt="" style="height:50px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">Website Rank section</p>
+                                    <div>
+                                      <img class="img-fluid" src="{% static 'assets/img/portfolio/alexa.png' %}" alt="" style="height:300px;width:600px;margin-bottom:30px;"/>
+                                    </div>
+                                    <p class="mb-5" style="text-align:left">If you are interested in what the full report looks like, here is the <a href="https://github.com/Lingchichen/buzzy_reputation_sample_report/blob/master/bayelm.png">link<a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+        <script src="assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
